@@ -1,0 +1,26 @@
+.button{
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 8px;
+    font-weight: 500;
+    background: #835afd;
+    color: #Fff;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 0;
+}
+
+.button:disabled{
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* pra dar o hover só se ele colocar o codigo */
+.button:not(:disabled):hover{ 
+    filter: brightness(0.9);
+}
+
